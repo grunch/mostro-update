@@ -84,7 +84,7 @@ Private admin-seller-buyer thread, gift-wrapped. All in the app.
 
 <div v-click class="mt-8 text-center">
 
-**+100 active testers** — Public beta coming soon 🚀
+**+100 active testers** — Public beta on zapstore and github! 🥳
 
 </div>
 
@@ -121,7 +121,7 @@ OpenClaw skill to operate Mostro via chat:
 
 <div class="mt-8 text-center text-xl">
 
-🤖 **24/7 P2P trader** in your Telegram chat
+🤖 **24/7 P2P trader**
 
 </div>
 
@@ -264,6 +264,7 @@ Reputation analysis:
 
 <div class="mt-12 text-center text-2xl">
 
+🌐 **mostro.network**  
 🌐 **mostro.community**  
 💻 **github.com/MostroP2P**
 
@@ -283,6 +284,6 @@ Thanks 🧌
 
 🧌 Mostro — Non-custodial P2P Bitcoin
 
-mostro.community | github.com/MostroP2P
+mostro.network | mostro.community | github.com/MostroP2P
 
 </div>
