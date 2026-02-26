@@ -9,7 +9,9 @@ transition: slide-left
 title: Mostro - GetAlby Community Call
 ---
 
-<img src="/mostro-logo.png" alt="Mostro Logo" style="height: 150px; margin-bottom: 20px;">
+<div style="display: flex; justify-content: center; margin-bottom: 20px;">
+  <img src="/mostro-logo.png" alt="Mostro Logo" style="height: 150px;">
+</div>
 
 # Mostro
 
