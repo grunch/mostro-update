@@ -9,6 +9,8 @@ transition: slide-left
 title: Mostro - GetAlby Community Call
 ---
 
+<img src="/mostro-logo.png" alt="Mostro Logo" style="height: 150px; margin-bottom: 20px;">
+
 # Mostro
 
 ## P2P Bitcoin on Lightning + Nostr
