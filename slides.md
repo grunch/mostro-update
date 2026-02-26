@@ -86,6 +86,12 @@ Private admin-seller-buyer thread, gift-wrapped. All in the app.
 
 **+100 active testers** — Public beta coming soon 🚀
 
+<div class="mt-4">
+  <a href="https://zapstore.dev" target="_blank">
+    <img src="https://raw.githubusercontent.com/grunch/btcpp-exploiting-p2p/main/public/zapstore-badge.png" alt="Download on Zapstore" style="height: 50px;">
+  </a>
+</div>
+
 </div>
 
 ---
