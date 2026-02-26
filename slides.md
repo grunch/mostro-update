@@ -11,32 +11,32 @@ title: Mostro - GetAlby Community Call
 
 # Mostro
 
-## P2P Bitcoin sobre Lightning + Nostr
+## P2P Bitcoin on Lightning + Nostr
 
-GetAlby Community Call — Febrero 2026
+GetAlby Community Call — February 2026
 
 ---
 
-# ¿Qué es Mostro?
+# What is Mostro?
 
 <div class="grid grid-cols-2 gap-4">
 <div>
 
-Exchange P2P de Bitcoin **sin custodia**, sobre **Lightning** y **Nostr**.
+Non-custodial **P2P Bitcoin exchange** on **Lightning** and **Nostr**.
 
-- **Non-custodial**: hold invoices como escrow
-- **Sin KYC**: solo wallet Lightning + Nostr keys
-- **Censorship resistant**: NIP-59 gift wrap
-- **Open source**: core en Rust
+- **Non-custodial**: Lightning hold invoices as escrow
+- **No KYC**: just Lightning wallet + Nostr keys
+- **Censorship resistant**: NIP-59 gift wrap encryption
+- **Open source**: Rust core, anyone can run a node
 
 </div>
 <div>
 
 ```mermaid
 graph LR
-  A[Vendedor] -->|Hold Invoice| B[Mostro]
+  A[Seller] -->|Hold Invoice| B[Mostro]
   B -->|Escrow| C[Lightning]
-  D[Comprador] -->|Fiat| A
+  D[Buyer] -->|Fiat| A
   C -->|Release| D
 ```
 
@@ -51,9 +51,9 @@ graph LR
 
 <div v-click>
 
-### 📱 NWC Integrado
+### 📱 NWC Integrated
 
-Conectá tu propia wallet:
+Connect your own wallet:
 - Alby
 - Mutiny
 - Zeus
@@ -62,9 +62,9 @@ Conectá tu propia wallet:
 
 <div v-click>
 
-### 🔄 Restore de Trades
+### 🔄 Trade Restore
 
-Backup automático entre dispositivos. Cambiás de celular, recuperás todo.
+Automatic backup across devices. Change phones, recover everything.
 
 </div>
 
@@ -72,7 +72,7 @@ Backup automático entre dispositivos. Cambiás de celular, recuperás todo.
 
 ### 💬 Dispute Chat
 
-Thread privado admin-seller-buyer, gift-wrapped. Todo en la app.
+Private admin-seller-buyer thread, gift-wrapped. All in the app.
 
 </div>
 
@@ -80,7 +80,7 @@ Thread privado admin-seller-buyer, gift-wrapped. Todo en la app.
 
 <div v-click class="mt-8 text-center">
 
-**+100 testers activos** — Public beta coming soon 🚀
+**+100 active testers** — Public beta coming soon 🚀
 
 </div>
 
@@ -88,25 +88,25 @@ Thread privado admin-seller-buyer, gift-wrapped. Todo en la app.
 
 # Mostro-skills
 
-## Integración con IA
+## AI Integration
 
 <div class="grid grid-cols-2 gap-8">
 <div>
 
-Skill de OpenClaw para operar Mostro vía chat:
+OpenClaw skill to operate Mostro via chat:
 
-- Crear órdenes
-- Tomar trades
-- Gestionar disputas
+- Create orders
+- Take trades
+- Manage disputes
 
 </div>
 <div class="flex items-center justify-center">
 
 <div class="bg-gray-800 rounded-lg p-4 text-sm font-mono">
 <div class="text-green-400">User:</div>
-<div>Creame una orden de venta por 100k sats</div>
+<div>Create a sell order for 100k sats</div>
 <div class="text-blue-400 mt-2">Mostronator:</div>
-<div>Orden creada: #1234</div>
+<div>Order created: #1234</div>
 <div class="text-gray-400">Seller: @user</div>
 <div class="text-gray-400">Amount: 100,000 sats</div>
 <div class="text-gray-400">Fiat: USD</div>
@@ -117,7 +117,7 @@ Skill de OpenClaw para operar Mostro vía chat:
 
 <div class="mt-8 text-center text-xl">
 
-🤖 **Trader P2P 24/7** en tu chat de Telegram
+🤖 **24/7 P2P trader** in your Telegram chat
 
 </div>
 
@@ -131,18 +131,18 @@ Skill de OpenClaw para operar Mostro vía chat:
 
 <div>
 
-Programa recién lanzado para ayudar a **comunidades Bitcoin** a correr su propio nodo Mostro.
+Freshly launched program to help **Bitcoin communities** run their own Mostro node.
 
 </div>
 
 <div>
 
-### Qué incluye:
+### What's included:
 
-- Soporte técnico
-- Configuración guiada
-- Mejores prácticas
-- Visibilidad en la app
+- Technical support
+- Guided setup
+- Best practices
+- Visibility in the app
 
 </div>
 
@@ -150,14 +150,14 @@ Programa recién lanzado para ayudar a **comunidades Bitcoin** a correr su propi
 
 <div v-click class="mt-8 p-4 bg-green-900 rounded-lg text-center">
 
-**Open source siempre**: cualquiera puede deployar sin permiso.  
-El programa facilita el camino.
+**Always open source**: anyone can deploy without permission.  
+The program just makes the journey easier.
 
 </div>
 
 ---
 
-# Herramientas para Operadores
+# Tools for Operators
 
 <div class="grid grid-cols-3 gap-4">
 
@@ -165,7 +165,7 @@ El programa facilita el camino.
 
 ### 🖥️ Mostrix
 
-Gestioná disputas desde desktop. Sin app móvil.
+Manage disputes from desktop. No mobile app needed.
 
 </div>
 
@@ -173,10 +173,10 @@ Gestioná disputas desde desktop. Sin app móvil.
 
 ### 🔔 Mostro-watchdog
 
-Bot de Telegram para admins:
-- Monitoreo en tiempo real
-- Notificaciones de disputas
-- Health checks de relays
+Telegram bot for admins:
+- Real-time monitoring
+- Dispute notifications
+- Relay health checks
 
 </div>
 
@@ -184,10 +184,10 @@ Bot de Telegram para admins:
 
 ### 📊 Mostro-score-web
 
-Análisis de reputación:
-- Fetcha eventos Nostr
-- Métricas objetivas
-- Transparencia total
+Reputation analysis:
+- Fetches Nostr events
+- Objective metrics
+- Full transparency
 
 </div>
 
@@ -195,7 +195,7 @@ Análisis de reputación:
 
 ---
 
-# Challenges Recientes
+# Recent Challenges
 
 <div class="grid grid-cols-3 gap-4">
 
@@ -203,26 +203,26 @@ Análisis de reputación:
 
 ### 🚀 Onboarding
 
-**Problema**: Fricción al juntar Nostr keys + Lightning wallet  
-**Solución**: Embedded wallets en test
+**Problem**: Friction combining Nostr keys + Lightning wallet  
+**Solution**: Embedded wallets in testing
 
 </div>
 
 <div v-click>
 
-### 🔔 Notificaciones
+### 🔔 Notifications
 
-**Problema**: Dependencia de FCM/Google  
-**Experimento**: Push vía Nostr relays + background sync
+**Problem**: Dependency on FCM/Google  
+**Experiment**: Push via Nostr relays + background sync
 
 </div>
 
 <div v-click>
 
-### 💰 Liquidez
+### 💰 Liquidity
 
-**Problema**: Necesitamos más makers  
-**Focus**: LATAM y África
+**Problem**: We need more makers  
+**Focus**: LATAM and Africa
 
 </div>
 
@@ -230,29 +230,29 @@ Análisis de reputación:
 
 ---
 
-# Cierre
+# Closing
 
-## ¿Cómo participar?
+## How to get involved?
 
 <div class="grid grid-cols-2 gap-8">
 
 <div>
 
-### Mostro está en:
+### Mostro is on:
 
 - ✅ **Mainnet**
-- ✅ **Beta global**
-- ✅ **mostro.community** recién lanzado
+- ✅ **Global beta**
+- ✅ **mostro.community** freshly launched
 
 </div>
 
 <div>
 
-### Sumate si:
+### Join if you:
 
-- Operás P2P y querés ser **maker**
-- Tenés una comunidad Bitcoin
-- Querés **testear** la app
+- Trade P2P and want to be a **maker**
+- Have a Bitcoin community
+- Want to **test** the app
 
 </div>
 
@@ -267,17 +267,17 @@ Análisis de reputación:
 
 <div class="mt-8 text-center">
 
-Gracias 🧌
+Thanks 🧌
 
 </div>
 
 ---
 
-# Preguntas?
+# Questions?
 
 <div class="text-center">
 
-🧌 Mostro — P2P Bitcoin sin custodia
+🧌 Mostro — Non-custodial P2P Bitcoin
 
 mostro.community | github.com/MostroP2P
 

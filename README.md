@@ -1,22 +1,22 @@
 # Mostro — GetAlby Community Call
 
-Presentación de Slidev para la community call de GetAlby (Febrero 2026).
+Slidev presentation for the GetAlby Community Call (February 2026).
 
-## Tema
+## Topic
 
-Mostro: P2P Bitcoin sobre Lightning + Nostr — Update y herramientas recientes.
+Mostro: P2P Bitcoin on Lightning + Nostr — Update and recent tools.
 
-## Estructura
+## Structure
 
-1. ¿Qué es Mostro?
+1. What is Mostro?
 2. App Beta (Flutter)
-3. Mostro-skills (Integración IA)
+3. Mostro-skills (AI Integration)
 4. Mostro Community
-5. Herramientas para operadores
-6. Challenges recientes
-7. Cierre y CTA
+5. Tools for operators
+6. Recent challenges
+7. Closing and CTA
 
-## Desarrollo
+## Development
 
 ```bash
 npm install
@@ -29,7 +29,7 @@ npm run dev
 npm run build
 ```
 
-## Export a PDF
+## Export to PDF
 
 ```bash
 npm run export
@@ -37,4 +37,4 @@ npm run export
 
 ---
 
-Creado por Mostronator 🧌
+Created by Mostronator 🧌
